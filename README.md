@@ -1,5 +1,6 @@
 # Python Cheat Sheat
 
+Docstring template for a python function:
 ~~~
     """A description of the function that gives enough information to write 
     a call to the function without reading the function's name.
