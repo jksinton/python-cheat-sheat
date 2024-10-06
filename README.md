@@ -22,14 +22,13 @@ The ```dcc.Store component``` is used to store JSON data in the browser.
 
 ### Store Properties
 
-storage_type (a value equal to: 'local', 'session' or 'memory'; default 'memory'): 
+**storage_type** (*a value equal to: 'local', 'session' or 'memory'*; default **'memory'**): 
 The type of the web storage. 
 
-memory: only kept in memory, reset on page refresh. 
+*memory*: only kept in memory, reset on page refresh. 
 
-local: window.localStorage, data is kept after the browser quit. 
+*local*: window.localStorage, data is kept after the browser quit. 
 
-session: window.sessionStorage, data is cleared once the browser quit.
+*session*: window.sessionStorage, data is cleared once the browser quit.
 
-
-https://dash.plotly.com/dash-core-components/store
+See https://dash.plotly.com/dash-core-components/store
